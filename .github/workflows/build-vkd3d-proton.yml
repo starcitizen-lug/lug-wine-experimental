@@ -27,7 +27,6 @@ jobs:
           git clone --depth 1 --recursive https://github.com/HansKristian-Work/vkd3d-proton.git
           ls
           cd vkd3d-proton
-          git apply ../patches/vkd3d-proton/fix_d3d12.patch
           ./package-release.sh master build --no-package
           tar -czf ../vkd3d-proton.tar.gz build
       - name: Upload vkd3d artifact
