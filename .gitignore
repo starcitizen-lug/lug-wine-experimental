@@ -6,3 +6,6 @@ wine-tkg-build-tmp*/
 
 #Build output directories
 output/
+
+#vkd3d-proton bin dir
+vkd3d-proton/
