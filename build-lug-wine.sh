@@ -36,6 +36,7 @@ patches=("10.2+_eac_fix"
          "0001-wineopenxr_add"
          "0002-wineopenxr_enable"
          "disable_syscall_dispatch"
+         "wineland_pointer_warping"
 )
 
 cleanup() {
