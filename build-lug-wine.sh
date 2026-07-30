@@ -87,8 +87,12 @@ prepare_preset() {
       export config="lug-wine-tkg-staging-wayland.cfg"
       parse_adhoc "default-to-wayland"
       ;;
+    wayland)
+      export config="lug-wine-tkg-wayland.cfg"
+      parse_adhoc "default-to-wayland"
+      ;;
     *)
-      echo "Usage: $0 {default|staging-default|staging-wayland} [build args...]"
+      echo "Usage: $0 {default|staging-default|staging-wayland|wayland} [build args...]"
       exit $invalid_args
       ;;
   esac
