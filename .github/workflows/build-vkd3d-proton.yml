@@ -24,7 +24,7 @@ jobs:
         shell: bash {0}
         run: |
           set -eux
-          git clone --depth 1 --recursive https://github.com/HansKristian-Work/vkd3d-proton.git
+          git clone --depth 1 --recursive https://github.com/HansKristian-Work/vkd3d-proton.git --branch v3.0.1
           ls
           cd vkd3d-proton
 
